@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  padding-left: 20%;
+  padding-right: 20%;
+  background-image: url(../img/driedflower.jpg);
+  background-size: cover;
+  background-position: 60% 30%;
+  background-repeat: no-repeat;
+}
+
+
+header>figure  {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 70px;
+  padding-top: 20px;
+}
+
+header img {
+  width: 5vh;
+  height: 5vh;
+}
+
+h1 {
+  padding-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 7vh;
+  color: dimgray;
+}
+
+h2, h3 {
+  color: dimgray;
+}
+
+header>nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+  padding-left: 30%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 3.5vh;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: dimgray;
+  transition: .4s;
+}
+
+main {
+  padding-left: 20%;
+  padding-right: 20%;
+  /* border: 1px solid red; */
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  padding: 2vh;
+}
+
+.top {
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+}
+
+.top>h2 {
+  padding-bottom: 5vh;
+  font-size: 6vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.top h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vh;
+  font-weight: 400;
+}
+
+.top img {
+  width: 50vh;
+  height: 50vh;
+  border-top-left-radius: 20vh;
+  border-top-right-radius: 20vh;
+}
+
+.top>article {
+  display: flex;
+  column-gap: 5vh;
+}
+
+.top section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+}
+
+
+.top li {
+  list-style-type: none;
+  line-height: 2;
+}
+
+.top aside {
+  line-height: 2;
+}
+
+.middle-top {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 15vh;
+}
+
+.middle-top>h2 {
+  padding-bottom: 5vh;
+  font-size: 6vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-top>section {
+  display: flex;
+}
+
+.middle-top h2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.middle-top > section h2 {
+  font-weight: 300;
+}
+
+.middle-top figure {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+figcaption {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.middle-top img {
+  width: 8vh;
+  height: 8vh;
+}
+
+.middle-bottom > h2,
+.bottom > h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 6vh;
+  padding-bottom: 5vh;
+}
+
+.middle-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-bottom > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-bottom figure {
+  display: flex;
+  justify-content: space-around;
+}
+
+.middle-bottom img{
+  width: 25vh;
+  height: 25vh;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+}
+
+.bottom>form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vh;
+  width: 100%;
+}
+
+.bottom [type="text"],
+.bottom [type="email"]{
+  width: 40%;
+  padding: 1%;
+  border-radius: 3vh;
+}
+
+textarea {
+  padding: 1%;
+  width: 40%;
+  height: 30vh;
+  border-radius: 3vh;
+}
+
+.bottom [type="submit"] {
+  width: 10%;
+  padding: 1%;
+  border-radius: 3vh;
+  cursor: pointer;
+}
